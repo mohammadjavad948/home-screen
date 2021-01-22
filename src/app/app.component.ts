@@ -25,7 +25,7 @@ export class AppComponent implements OnInit{
     this.setTime();
     setInterval(() => {
       this.setTime();
-    }, 60000);
+    }, 1000);
   }
   setTime(): void{
     this.time = {
