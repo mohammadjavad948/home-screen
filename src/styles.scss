@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{margin: unset; display: flex;}
+
+:root{
+  --background: white;
+  --color: #333;
+  --author: darkgray
+}
+
+*{
+  transition: all 100ms ease;
+}
+
+.dark{
+  --background: #101010;
+  --color: #c8c8c8;
+  --author: darkgray
+}
